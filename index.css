@@ -1,0 +1,134 @@
+body {
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+
+}
+
+.juntas {
+    display: flex;
+    align-items: center;
+
+}
+
+.divlogo {
+
+    display: inline;
+
+}
+
+.displaypesquisa {
+    background-color: aqua;
+    width: 90px;
+    align-items: center;
+
+}
+
+.logo {
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.logo2 {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+#menu-horizontal {
+    margin: 0;
+}
+
+#menu-horizontal ul {
+    list-style-type: none;
+    height: 80px;
+    margin: 0;
+}
+
+#menu-horizontal ul li {
+    display: inline-block;
+    display: flex;
+    display: inline-block;
+    justify-content: space-around;
+
+}
+
+#menu-horizontal ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: rgb(193, 202, 202);
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: background .4s;
+    border-radius: 5px;
+
+}
+
+#menu-horizontal ul a:hover {
+    background-color: rgb(58, 42, 119);
+}
+
+#menu-horizontal ul li span {
+    margin-left: 20px;
+}
+
+
+
+#menu-horizontal .pesquisa ul li {
+    color: tomato;
+    font-size: 70px;
+    font-family: sans-serif;
+
+
+}
+
+.pagina {
+    background-color: rgba(65, 105, 225, 0.418);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.text {
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    
+        
+    }
+
+
+.exemplo1 {
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.botao {
+    background-color: white;
+    height: 40px;
+    border:none;
+
+
+
+}
